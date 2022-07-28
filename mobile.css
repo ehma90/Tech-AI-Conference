@@ -96,10 +96,16 @@ body {
 
   .hero-header {
     color: #ec5242;
-    font-weight: 900;
-    font-size: 4rem;
-    text-transform: uppercase;
+    font-size: 2.5rem;
     margin: 1.8rem 2rem;
+  }
+
+  .hero-header span {
+    font-weight: 900;
+    margin: 1.8rem 0.5rem;
+    font-size: 4rem;
+    text-align: start;
+    text-transform: uppercase;
   }
 
   .hero-text {
@@ -147,12 +153,16 @@ body {
     margin: 0 auto;
   }
 
+  .program-content {
+    width: 100%;
+  }
+
   .program {
     display: flex;
     justify-content: center;
     background-color: #363a44;
     margin: 1.8rem 2rem;
-    padding: 1.2rem;
+    padding: 1rem 0;
   }
 
   .program .fa.fa-calendar-o {
@@ -198,16 +208,17 @@ body {
   .program h3 {
     display: flex;
     align-items: center;
+    width: calc(100% / 3);
     color: #ec5242;
-    margin: 0 1rem;
     font-weight: 400;
     font-size: 1.8rem;
   }
 
   .program p {
+    display: flex;
+    align-items: center;
+    width: calc(100% / 3);
     color: #fff;
-    width: 100%;
-    margin: 0 1rem;
     font-size: 1.4rem;
   }
 
@@ -431,19 +442,33 @@ body {
     color: #272a31;
   }
 
-  #footer {
+  .footers {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: 0 16rem;
   }
 
-  .logo {
+  .logos {
+    font-size: 2rem;
+    border: none;
+  }
+
+  .log {
     font-size: 2rem;
     border: none;
   }
 
   .footer-text {
-    text-align: start;
-    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+
+  .footer-texts {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
   }
 }

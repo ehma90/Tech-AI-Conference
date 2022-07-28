@@ -21,7 +21,7 @@ data.map((item) => {
   let element = `
     <div class="f-speaker">
         <div>
-            <img src="${item.image}" alt="" width="100" height="90">
+            <img src="${item.image}" alt="" width="100" height="90" class="original-image">
         </div>
         <div class="description">
             <h3>${item.name}</h3>

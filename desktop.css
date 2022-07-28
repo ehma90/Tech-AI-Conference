@@ -99,10 +99,16 @@
 
   .hero-header {
     color: #ec5242;
-    font-weight: 900;
-    font-size: 5rem;
-    text-transform: uppercase;
+    font-size: 4rem;
     margin: 1.8rem 14rem;
+  }
+
+  .hero-header span {
+    font-weight: 900;
+    margin: 1.8rem 0.5rem;
+    font-size: 4rem;
+    text-align: start;
+    text-transform: uppercase;
   }
 
   .hero-text {
@@ -264,7 +270,7 @@
   #contain-speakers {
     display: grid;
     grid-template-columns: auto auto;
-    margin: 1rem 24rem;
+    margin: 1rem 20rem;
   }
 
   .f-speaker {
@@ -464,7 +470,15 @@
     margin: 1rem 0;
   }
 
-  #footer {
+  .partners {
+    display: none;
+  }
+
+  .footer {
+    background-color: #272a31;
+  }
+
+  .footers {
     display: flex;
     justify-content: space-around;
     padding-top: 3rem;
@@ -475,9 +489,23 @@
   .logo {
     font-size: 2rem;
     border: none;
+    color: #fff;
+  }
+
+  .logos {
+    font-size: 2rem;
+    border: none;
+    color: #272a31;
   }
 
   .footer-text {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+  }
+
+  .footer-texts {
     display: flex;
     align-items: center;
     font-size: 1.7rem;
