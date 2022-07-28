@@ -1,6 +1,7 @@
 @media (min-width: 768px) {
   .fa.fa-bars,
-  .program-btn {
+  .program-btn,
+  .fa.fa-times-circle-o {
     display: none;
   }
 
@@ -44,6 +45,11 @@
 
   .nav-logo {
     font-size: 3.4rem;
+  }
+
+  .nav-logo a{
+    text-decoration: none;
+    color: #272a31;
   }
 
   .about-logo span {
@@ -148,15 +154,15 @@
   .program-content {
     display: flex;
     justify-content: center;
-    margin: 1.3rem 14rem;
-    padding: 8rem;
-    gap: 20px;
+    margin: 1.3rem 29rem;
+    gap: 2rem;
   }
 
   .program {
+    display: block;
+    width: 40rem;
     background-color: #363a44;
-    margin: 0;
-    padding: 3rem 5rem;
+    padding: 2rem 2rem;
     color: #fff;
   }
 
@@ -165,21 +171,58 @@
     cursor: pointer;
   }
 
-  .program i {
+  .program .fa.fa-calendar-o {
     display: flex;
+    justify-content: center;
     align-items: center;
     color: #ec5242;
-    font-size: 3.5rem;
-    margin: 1rem 5rem;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  .program .fa.fa-ravelry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ec5242;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  .program .fa.fa-microchip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ec5242;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  .program .fa.fa-trophy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ec5242;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  .program .fa.fa-handshake-o {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ec5242;
+    font-size: 2.5rem;
+    margin: 1rem 0;
   }
 
   .program h3 {
     display: flex;
     align-items: center;
     color: #ec5242;
-    margin: 0 2rem;
+    margin: 1rem 2rem;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .program p {
@@ -191,6 +234,7 @@
   .Agenda-text {
     color: #fff;
     text-align: center;
+    margin-top: 6rem;
     font-size: 1.6rem;
     text-decoration: underline;
     text-transform: uppercase;

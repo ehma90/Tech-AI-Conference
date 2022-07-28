@@ -16,7 +16,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  #navbar {
+  #navbar .about-logo {
     display: none;
   }
 
@@ -30,12 +30,58 @@ body {
     margin: 2rem;
   }
 
+  .fa.fa-times-circle-o{
+    font-size: 3rem;
+    margin: 2rem;
+    color: #ec5242;
+    display: block;
+  }
+
+  .navlist{
+    list-style: none;
+    position: fixed;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #272a31;
+    transform: translateX(calc(-1 * 100vw));
+    transition: transform .25s;
+  }
+
+  .nav-open{
+    transform: translateX(0);
+  }
+
+  .nav-item{
+    display: block;
+    font-size: 2.4rem;
+    text-decoration: none;
+    padding: 2.4rem;
+    color: #fff;
+  }
+  
+  .nav-item:hover{
+    text-decoration: none;
+    color: #ec5242;
+  }
+
+  .nav-item.tech {
+    border: 1px solid #ec5242;
+    padding: 1rem 2.4rem;
+    margin-right: 16rem;
+    color: #ec5242;
+  }
+
   #hero {
     background-image: url(imgs/background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 10rem;
     padding-bottom: 8rem;
+    overflow-x: hidden;
   }
 
   .hero-header {
@@ -74,6 +120,7 @@ body {
     background-color: #272a31;
     padding-top: 2rem;
     padding-bottom: 4rem;
+    overflow-x: hidden;
   }
 
   .program-header {
@@ -98,7 +145,36 @@ body {
     padding: 1.2rem;
   }
 
-  .program i {
+  .program .fa.fa-calendar-o {
+    display: flex;
+    align-items: center;
+    color: #ec5242;
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+  .program .fa.fa-ravelry {
+    display: flex;
+    align-items: center;
+    color: #ec5242;
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+  .program .fa.fa-microchip {
+    display: flex;
+    align-items: center;
+    color: #ec5242;
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+
+  .program .fa.fa-trophy {
+    display: flex;
+    align-items: center;
+    color: #ec5242;
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+  .program .fa.fa-handshake-o {
     display: flex;
     align-items: center;
     color: #ec5242;
@@ -141,6 +217,7 @@ body {
   #speakers {
     padding-top: 2rem;
     padding-bottom: 4rem;
+    overflow-x: hidden;
   }
 
   .speakers-header {
@@ -345,8 +422,8 @@ body {
 
   #footer {
     display: flex;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .logo {
@@ -355,7 +432,7 @@ body {
   }
 
   .footer-text {
-    display: flex;
-    align-items: center;
+    text-align: start;
+    margin-right: 2rem;
   }
 }
