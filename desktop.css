@@ -47,7 +47,7 @@
     font-size: 3.4rem;
   }
 
-  .nav-logo a{
+  .nav-logo a {
     text-decoration: none;
     color: #272a31;
   }
@@ -93,8 +93,8 @@
     background-image: url('imgs/background.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 12rem;
-    padding-bottom: 10rem;
+    padding-top: 16rem;
+    padding-bottom: 16rem;
   }
 
   .hero-header {
@@ -155,7 +155,7 @@
     display: flex;
     justify-content: center;
     margin: 1.3rem 29rem;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .program {
@@ -167,7 +167,7 @@
   }
 
   .program:hover {
-    border: 2px solid #fff;
+    outline: 2px solid #fff;
     cursor: pointer;
   }
 
@@ -254,6 +254,13 @@
     font-weight: 700;
   }
 
+  .dash {
+    background-color: #363a44;
+    height: 0.1rem;
+    width: 5%;
+    margin-bottom: 0.5rem;
+  }
+
   #contain-speakers {
     display: grid;
     grid-template-columns: auto auto;
@@ -278,6 +285,10 @@
     font-style: oblique;
     font-weight: 700;
     padding-bottom: 0.5rem;
+  }
+
+  .description .experience {
+    font-size: 1.3rem;
   }
 
   #partners {
@@ -312,8 +323,8 @@
     background-image: url('imgs/background.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 16rem;
+    padding-bottom: 16rem;
   }
 
   .hero-header-about {
@@ -411,7 +422,7 @@
   }
 
   .past-submit-imgs {
-    margin: 2rem 16rem;
+    margin: 2rem 30rem;
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -469,7 +480,7 @@
   .footer-text {
     display: flex;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .footer-logo {

@@ -16,6 +16,16 @@ body {
 }
 
 @media (max-width: 768px) {
+  .about-logo {
+    border: 1px solid #d3d3d3;
+    font-weight: bold;
+    font-size: 4rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: 4rem 2.5rem;
+  }
+
   #navbar .about-logo {
     display: none;
   }
@@ -30,14 +40,14 @@ body {
     margin: 2rem;
   }
 
-  .fa.fa-times-circle-o{
+  .fa.fa-times-circle-o {
     font-size: 3rem;
     margin: 2rem;
     color: #ec5242;
     display: block;
   }
 
-  .navlist{
+  .navlist {
     list-style: none;
     position: fixed;
     padding: 0;
@@ -48,22 +58,22 @@ body {
     overflow: hidden;
     background-color: #272a31;
     transform: translateX(calc(-1 * 100vw));
-    transition: transform .25s;
+    transition: transform 0.25s;
   }
 
-  .nav-open{
+  .nav-open {
     transform: translateX(0);
   }
 
-  .nav-item{
+  .nav-item {
     display: block;
     font-size: 2.4rem;
     text-decoration: none;
     padding: 2.4rem;
     color: #fff;
   }
-  
-  .nav-item:hover{
+
+  .nav-item:hover {
     text-decoration: none;
     color: #ec5242;
   }
@@ -152,6 +162,7 @@ body {
     font-size: 2rem;
     margin: 0 1rem;
   }
+
   .program .fa.fa-ravelry {
     display: flex;
     align-items: center;
@@ -159,6 +170,7 @@ body {
     font-size: 2rem;
     margin: 0 1rem;
   }
+
   .program .fa.fa-microchip {
     display: flex;
     align-items: center;
@@ -174,6 +186,7 @@ body {
     font-size: 2rem;
     margin: 0 1rem;
   }
+
   .program .fa.fa-handshake-o {
     display: flex;
     align-items: center;
@@ -193,6 +206,7 @@ body {
 
   .program p {
     color: #fff;
+    width: 100%;
     margin: 0 1rem;
     font-size: 1.4rem;
   }
@@ -224,6 +238,13 @@ body {
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 1rem;
+  }
+
+  .dash {
+    background-color: #363a44;
+    height: 0.1rem;
+    width: 5%;
+    margin-bottom: 0.5rem;
   }
 
   .f-speaker {
@@ -312,16 +333,6 @@ body {
     padding-bottom: 1rem;
     font-size: 1.4rem;
     margin: 0 2rem;
-  }
-
-  .about-logo {
-    border: 1px solid #d3d3d3;
-    font-weight: bold;
-    font-size: 4rem;
-    padding: 3rem;
-    display: flex;
-    justify-content: center;
-    margin: 4rem 2.5rem;
   }
 
   .about-logo span {
